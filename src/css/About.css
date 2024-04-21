@@ -1,0 +1,31 @@
+/* About.module.css */
+.aboutContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #1f2937, #000000);
+    color: white;
+  }
+  
+  .contentContainer {
+    max-width: 1024px; 
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    font-size: 2.25rem; 
+    font-weight: bold;
+    display: inline;
+    border-bottom: 4px solid #6b7280; 
+  }
+  
+  .paragraph {
+    font-size: 1.25rem; 
+    margin-top: 5rem; 
+  }
+  

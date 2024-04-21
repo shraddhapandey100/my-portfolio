@@ -1,0 +1,40 @@
+.social-links-container {
+    display: flex; /* Hidden by default on small screens */
+  }
+  
+  .social-links-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem; /* Adjust as needed */
+    height: 3.5rem; /* Adjust as needed */
+    padding: 0.5rem 1rem;
+    margin-left: -6.25rem; /* Adjust as needed */
+    transition: margin-left 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+    background-color: #4b5563; /* Adjust as needed */
+  }
+  
+  .social-links-item:hover {
+    margin-left: -0.625rem; /* Adjust as needed */
+    border-radius: 0.25rem; /* Adjust as needed */
+  }
+  
+  .social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: cyan; /* Adjust as needed */
+  }
+  
